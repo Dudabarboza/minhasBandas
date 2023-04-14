@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("./img/1D\ 1.jpg");
+    width: 100%;
+    height: 650px;
+}
+.in-memory, .title{
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+}
+.in-memory{
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 150px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 400px 20px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-img{
+    width: 400px;
+    height: 400px;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 50px;
+}
+.about-title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+.about-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.musics-title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: #fff;
+    background: #171515;
+
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+}
+.title-music-1, .title-music-2, .title-music-3, .title-music-4{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    color: #fff;
+}
+.musics-line-1, .musics-line-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.music-1, .music-2, .music-3, .music-4{
+    background-color: rgba(109, 24, 24, 0.829);
+
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.music-2, .music-4{
+    margin-left: 80px ;
+}
+.title-videos{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: #fff;
+
+    background: #892A2A;
+    
+    width: 100%;
+    height: 130px;
+    
+    display: flex;
+    align-items: center; 
+}
+.videos-content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.albuns-1, .albuns-2{
+    display: flex;
+    flex-direction: row;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albuns-2{
+    margin-top: 50px;
+}
+.video-2, .video-4{
+    margin-left: 100px;
+}
+.img-video-1, .img-video-2, .img-video-3, .img-video-4{
+    height: 300px;
+    width: 300px;
+}
+.video-title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+.footer{
+    background: #171515 ;
+
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.direitos{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+
+    color: #fff;
+}
+.footer-img{
+    background-color: #fff;
+    border-radius: 20px;
+}

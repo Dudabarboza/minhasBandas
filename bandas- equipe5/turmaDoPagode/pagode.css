@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(144, 29, 29);
+}
+
+.pgd{
+    width: 100%;
+}
+.cx1 h1{
+    text-align: center;
+    color: rgb(246, 239, 239);
+    margin: 50px;
+}
+
+.cx2 h1{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+.cx2 p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(246, 239, 239) ;
+}
+.msc h1 {
+    text-align: center;
+    color: rgb(246, 239, 239);
+}
+.mscs{
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 70px;
+    gap: 10%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+.msc1 h3{
+    color: white;
+    margin-left: 110px;
+}
+.msc1 a{
+    text-decoration: none;
+}
+.msc2 h3{
+    color: white;
+    margin-left: 110px;
+}
+.msc2 a{
+    text-decoration: none;
+}
+.msc3 h3{
+    color: white;
+    margin-left: 70px;
+}
+.msc3 a{
+    text-decoration: none;
+}
+.msc4 h3{
+    color: white;
+    margin-left: 110px;
+}
+.msc4 a{
+    text-decoration: none;
+}
+.vdfv h1{
+    color: white;
+    text-align: center;
+}
+footer{
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    
+}
+footer h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.img2{
+    gap: 17%;
+    justify-content: center;
+    align-items: center;
+}

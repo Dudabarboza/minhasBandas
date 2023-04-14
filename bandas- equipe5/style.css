@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    background-color: black;
+
+    height: 150px;
+}
+.title{
+    font-family: 'DynaPuff', cursive;
+    font-size: 90px;
+}
+.subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.bands{
+    margin-top: 15px;
+}
+.person1, .person2, .person3, .person4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.person1-img, .person2-img, .person3-img, .person4-img{
+    border-radius: 15px;
+}
+.line1, .line2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.line2{
+    display: flex;
+    margin-top: 40px;
+}
+.person1-name, .person2-name, .person3-name, .person4-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+
+    margin-left: 10px;
+}
+.music-2, .music-4{
+    margin-left: 150px;
+}
